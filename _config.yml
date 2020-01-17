@@ -1,1 +1,11 @@
-theme: jekyll-theme-minimal
+auto: true
+
+#markdown: rdiscount
+highlighter: 'pygments'
+#paginate: 8
+permalink: /:title
+
+title: NetDoor
+url: https://www.net-door.cc/
+feed: /atom.xml
+author_info: <a href="https://www.net-door.cc/">UncleWang</a>
