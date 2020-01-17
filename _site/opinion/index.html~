@@ -2,13 +2,13 @@
 <html>
 <head>
     <!--
-    * Author:         Mukosame
+    * Author:         UncleWang
     -->
     <meta charset="utf-8" />
     <title>Hyper Hamster</title>
-    <meta name="author" content="Mukosame" />
+    <meta name="author" content="UncleWang" />
     <meta name="renderer" content="webkit">
-    <meta name="description" content="Mukosame's Blog" />
+    <meta name="description" content="UncleWang's Blog" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
