@@ -5,7 +5,7 @@ description: 以DlerCloud+自建节点为例
 category: blog
 ---
 # Surge规则分享-以DlerCloud+自建节点为例
-
+---   
 ### 基础玩法
 * `😄token😄`替换成DlerCloud官网上你账户下的`token`
 * `😭token😭`替换成你创建的**Secret**`gist`中raw链接两个token中前一个`token`
@@ -84,11 +84,11 @@ IP-CIDR,1.1.1.1/24,DIRECT,no-resolve
 GEOIP,CN,DIRECT
 FINAL,♳Final,dns-failed
 
-[Snell Server]
-interface = 0.0.0.0
-port = 5886
-psk = bwh123456
-obfs = off
+// [Snell Server]
+// interface = 0.0.0.0
+// port = 5886
+// psk = abc123456
+// obfs = off
 
 [SSID Setting]
 "X-iPhone" cellular-mode=true
