@@ -11,6 +11,7 @@ category: blog
 ### 进阶玩法
 * ` 🇭🇰Dler-IPLC,🇭🇰Dler-BGP,🇯🇵Dler-Relay,🇺🇳Dler-Relay,🇺🇳Dler-Bronze,👤Personal`替换成自己喜欢的名字，并把`policy-path=url`中**url**替换成你机场的surge list订阅链接或通过API转后的list链接
 * 注意：`♺PROXY = select,`后的选项也要对应更改，否则会报错
+### Surge.conf内容
 ```
 [General]
 loglevel = notify
