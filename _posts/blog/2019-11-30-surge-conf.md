@@ -5,6 +5,7 @@ description: 以DlerCloud+自建节点为例
 category: blog
 ---
 # Surge规则分享-以DlerCloud+自建节点为例
+
 ### 基础玩法
 * `😄token😄`替换成DlerCloud官网上你账户下的`token`
 * `😭token😭`替换成你创建的**Secret**`gist`中raw链接两个token中前一个`token`
