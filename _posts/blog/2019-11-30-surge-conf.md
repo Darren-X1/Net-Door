@@ -6,15 +6,15 @@ category: blog
 ---
 # Surge规则分享-以DlerCloud+自建节点为例
 ---   
-### 基础玩法
+## 基础玩法
 * `😄token😄`替换成DlerCloud官网上你账户下的`token`
 * `😭token😭`替换成你创建的**Secret**`gist`中raw链接两个token中前一个`token`
 
-### 进阶玩法
+## 进阶玩法
 * ` 🇭🇰Dler-IPLC,🇭🇰Dler-BGP,🇯🇵Dler-Relay,🇺🇳Dler-Relay,🇺🇳Dler-Bronze,👤Personal`替换成自己喜欢的名字，并把`policy-path=url`中**url**替换成你机场的surge list订阅链接或通过API转后的list链接
 * 注意：`♺PROXY = select,`后的选项也要对应更改，否则会报错
 
-### Surge.conf内容
+## Surge.conf内容
 ```
 
 [General]
