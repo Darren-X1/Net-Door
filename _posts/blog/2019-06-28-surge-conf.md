@@ -7,7 +7,7 @@ category: blog
 # Surge规则分享-以DlerCloud+自建节点为例
 ---   
 ## 基础玩法
-* `❌token❌`替换成DlerCloud官网上你账户下的`token`或你创建的**Secret**`gist`中raw链接两个token中前一个`token`
+* `❌token❌`替换成DlerCloud官网上你账户下的`token`
 
 ## 进阶玩法
 * ` 🇭🇰Dler-IPLC,🇭🇰Dler-BGP,🇯🇵Dler-Relay,🇺🇳Dler-Relay,🇺🇳Dler-Bronze,👤Personal`替换成自己喜欢的名字，并把`policy-path=url`中**url**替换成你机场的surge list订阅链接或通过API转后的list链接
@@ -41,7 +41,7 @@ show-error-page-for-reject = true
 
 [Proxy Group]
 ♺PROXY = select, 🇭🇰Dler-IPLC, 🇭🇰Dler-BGP, 🇯🇵Dler-Relay,🇺🇸Dler-Relay,🇺🇳Dler-Relay, 🇺🇳Dler-Global, 👤Personal,ⓌWiFi
-♳GlobalTV = select, 🏳️‍🌈Fly-Vmess,  ♺PROXY, ⭕️DIRECT
+♳GlobalTV = select, ♺PROXY, ⭕️DIRECT
 ♴AsianTV = select, ⭕️DIRECT,♺PROXY,♷Domestic,♳GlobalTV
 ♵Telegram =select, 🇭🇰Dler-IPLC, 🇭🇰Dler-BGP,🇺🇸Dler-Relay,🇺🇳Dler-Relay,♺PROXY
 ♶Speedtest = select, ⭕️DIRECT, ♺PROXY
@@ -59,8 +59,8 @@ show-error-page-for-reject = true
 🇺🇳Dler-Relay = select, policy-path=https://dler.cloud/subscribe/❌token❌?protocols=ss&list=surge&type=relay&noarea=hk+jp+us&noisp=back, update-interval=0
 🇺🇳Dler-Global = select, policy-path=https://dler.cloud/subscribe/❌token❌?protocols=ss&list=surge&lv=1, update-interval=0
 🇨🇳Dler-Back = select, policy-path=https://dler.cloud/subscribe/❌token❌?protocols=ss&list=surge&isp=back, update-interval=0
-🏳️‍🌈Fly-Vmess = select, policy-path=https://dove.589669.xyz/all2surge?sub=❌url❌&filter=.*NF&emoji=2, update-interval=0
-👤Personal = select, policy-path=https://gist.githubusercontent.com/Darren-X1/❌token❌/raw/Personal, update-interval=0, url=http://www.qualcomm.cn/generate_204, interval=600, tolerance=50
+# 🏳️‍🌈Fly-Vmess = select, policy-path=https://dove.589669.xyz/all2surge?sub=❌url❌&filter=.*NF&emoji=2, update-interval=0
+# 👤Personal = select, policy-path=https://gist.githubusercontent.com/Darren-X1/❌token❌/raw/Personal, update-interval=0, url=http://www.qualcomm.cn/generate_204, interval=600, tolerance=50
 
 [Rule]
 # Rulesets
